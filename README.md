@@ -9,9 +9,11 @@
 
 ## 実行方法
 
-1. PCにQEMUとGNU Makeの最新版をインストールし、PATHを通します。
-1. 『30日でできる! OS自作入門』に付属のCDのtolsetフォルダにこのリポジトリをクローンします。
-1. `make run`
+1. PCにQEMUの最新版をインストールし、PATHを通します。
+1. `cd src && ..\z_tools\make run`
 
 ## ライセンスについて
-このOSのソースコードは、「川合堂ライセンス-01  ver.1.0」に従い、MIT Licenseで再配布しています。
+- srcフォルダ以下のプログラムは、『30日でできる! OS自作入門』付属のCD-Rに収録されているものを一部修正したものです。  
+  「川合堂ライセンス-01  ver.1.0」に従い、MIT Licenseで再配布しています。
+- tolsetフォルダ以下のプログラムは、[HariboteOS/index](http://hrb.osask.jp/)からダウンロードしたものを一部修正したものです。
+  ライセンスについての詳細は[z_tools/README.md](z_tools/README.md)をご覧ください。

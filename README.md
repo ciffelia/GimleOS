@@ -1,5 +1,6 @@
 # GimleOS
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![Build status](https://ci.appveyor.com/api/projects/status/d51r857m20f3nhr0?svg=true)](https://ci.appveyor.com/project/prince0203/gimleos)
 
 ## 概要
 [『30日でできる! OS自作入門』](http://amzn.asia/g62PSK6)を読み進めて、はりぼてOSを作っていくリポジトリです。  

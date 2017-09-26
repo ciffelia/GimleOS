@@ -1,0 +1,9 @@
+version: 1.0.{build}
+
+build_script:
+  - cmd: cd src && ..\z_tools\make img
+
+test: off
+
+artifacts:
+  - path: src\haribote.img

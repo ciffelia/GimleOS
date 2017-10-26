@@ -57,7 +57,7 @@ haribote.img : ipl10.bin haribote.sys Makefile
 
 # ˆê”Ê‹K‘¥
 
-%.gas : %.c Makefile
+%.gas : %.c bootpack.h Makefile
 	$(CC1) -o $*.gas $*.c
 
 %.nas : %.gas Makefile
